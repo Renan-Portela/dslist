@@ -1,6 +1,7 @@
 package com.Renan_Portela.dslist.dto;
 
 import com.Renan_Portela.dslist.entities.Game;
+import com.Renan_Portela.dslist.projections.GameMinProjection;
 
 public class GameMinDTO {
 	
@@ -21,6 +22,15 @@ public class GameMinDTO {
 		year = entity.getYear();
 		imgUrl = entity.getImgUrl();
 		shortDescription = entity.getShortDescription();
+	}
+	
+	public GameMinDTO(GameMinProjection projection) {
+		
+		id = projection.getId();
+		title = projection.getTitle();
+		year = projection.getYear();
+		imgUrl = projection.getImgUrl();
+		shortDescription = projection.getShortDescription();
 	}
 
 	public Long getId() {
