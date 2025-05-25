@@ -329,7 +329,7 @@ git push origin feature/nova-funcionalidade
 ### 👨‍🏫 DevSuperior
 Este projeto foi desenvolvido durante o **Intensivão Java Spring** da [DevSuperior](https://devsuperior.com.br/), ministrado pelo professor **Nelio Alves**.
 
-- 🔗 **Repositório de Referência:** [sds1-wmazoni](https://github.com/devsuperior/sds1-wmazoni)
+- 🔗 **Repositório de Referência:** [DSList](https://github.com/devsuperior/dslist-backend)
 - 🎓 **Curso:** Intensivão Java Spring
 - 👨‍💻 **Instrutor:** Nelio Alves
 - 🏫 **Instituição:** DevSuperior
